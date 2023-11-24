@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
+require('dotenv').config();
+const port = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
@@ -33,4 +35,4 @@ app.post('/chat', (req, res) =>{
 
 })
 
-app.listen(3000, ()=> console.log('El servidor esta funcionando y escucha en el puerto 3000'))
+app.listen(port, ()=> console.log(`El servidor esta funcionando y escucha en el puerto ${port}` ))
