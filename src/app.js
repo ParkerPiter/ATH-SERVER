@@ -1,7 +1,11 @@
 const express = require("express")
+const cors = require('cors');
 const app = express();
 
 app.use(express.json());
+app.use(cors({
+    origin: ['https://spontaneous-salamander-a129ea.netlify.app', 'http://127.0.0.1:5173', 'http://localhost:5173/']
+}));
 
 app.get('/', (req,res)=>{
     res.send('Inicie perfectamente')
