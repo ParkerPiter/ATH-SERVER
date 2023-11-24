@@ -4,8 +4,8 @@ const app = express();
 require('dotenv').config();
 const port = process.env.PORT || 3000;
 
-app.use(cors());
 app.use(express.json());
+app.use(cors({origin: 'https://spontaneous-salamander-a129ea.netlify.app'}));
 
 app.post('/chat', (req, res) =>{
 
