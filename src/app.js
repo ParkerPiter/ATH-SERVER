@@ -15,14 +15,16 @@ app.post('/chat', (req, res) =>{
 
     //Mensajes que se pueden cambiar:
     let responses = {
-        '1': `ATH Token es el corazón de nuestra comunidad, un proyecto comunitario donde todos pueden aportar ideas para innovar. Con un suministro de 1,000,000,000 tokens, buscamos hacer historia en la blockchain. ¿Quieres saber más sobre cómo funciona o cómo puedes adquirirlos?. Escriba a1 para obtener esa información ` ,
-        '1.1': "ATH Token utiliza la tecnología blockchain para ofrecer una plataforma segura y descentralizada. Nuestro token es el pase para participar en decisiones comunitarias y beneficiarte de la economía digital que estamos construyendo. ¿Te gustaría detalles sobre la seguridad o la hoja de ruta del proyecto?",
+        '1': `Too many ATHs in your wallet? Throw them here! " Interactive Feature: Shows a wallet designated for burning tokens. ` ,
+        '2': "Want to stay up to date on everything? Follow us on Twitter and Telegram for more updates and memes.",
         
-        '2': "Obtener ATH Tokens es un proceso sencillo y accesible. Puedes adquirirlos a través de nuestra plataforma en DEXTools, donde también encontrarás guías detalladas para fondear tu wallet y realizar tu compra. ¿Necesitas ayuda para comenzar?. Escriba a2 para obtener esa información",
-        '2.1': "Para comenzar, necesitarás una wallet compatible como MetaMask. Una vez configurada, puedes ir a DEXTools, buscar el par ATH/ETH y realizar tu compra. ¿Quieres una guía detallada para configurar tu wallet o cómo comprar en DEXTools?",
+        '3': "Show off your skills with those fat fingers. I hope you're better at this than holding, maybe you'll win something for once in your life.",
+        '4': "Need your daily dose of humor? Check outour exclusive ATH memes, prepare yours and maybe you'll win a prize.",
         
-        '3': "El proyecto ATH es una odisea hacia el éxito colectivo. Somos una comunidad impulsada por la participación activa de nuestros miembros. Puedes contribuir con ideas, participar en decisiones y unirte a nuestras redes sociales para estar al día. ¿Te interesa ser parte activa de nuestra comunidad o prefieres seguirnos en redes sociales para más información?. Escriba a3 para obtener esa información",
-        '3.1': "Para involucrarte activamente, puedes unirte a nuestro grupo de Telegram y seguirnos en Twitter [@ATH_Token]. Allí podrás aportar tus ideas y votar en decisiones importantes. Si prefieres estar informado, nuestras redes sociales son el mejor lugar para recibir actualizaciones y noticias. ¿Te interesa unirte al grupo de Telegram o seguirnos en Twitter?",
+        '5': `Buy or sell? Do you think it's a bad time? If in doubt, press ALT+I on the chart!!! ."`,
+        '6': "What is love? What is happiness? What makes us human? The only thing you should care about is how to buy more ATH.",
+    
+        '7': "All the zeros you need are here, with a limited tokenomics of 1,000,000,000.069.069."
     }
 
     //Variable por donde ingresa la request al body
